@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+    <PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shoeses.Entitis\Shoeses.Entitis.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Addresses\" />
+    <Folder Include="Categoryes\" />
+    <Folder Include="NewFolder\" />
+    <Folder Include="Promotions\" />
+    <Folder Include="Products\" />
+    <Folder Include="ProductImages\" />
+    <Folder Include="Payments\" />
+    <Folder Include="Orders\" />
+    <Folder Include="OrderDetails\" />
+  </ItemGroup>
+
+</Project>

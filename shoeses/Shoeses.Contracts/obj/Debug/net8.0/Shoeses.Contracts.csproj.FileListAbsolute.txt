@@ -1,0 +1,11 @@
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\bin\Debug\net8.0\Shoeses.Contracts.deps.json
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\bin\Debug\net8.0\Shoeses.Contracts.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\bin\Debug\net8.0\Shoeses.Contracts.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.AssemblyInfoInputs.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.AssemblyInfo.cs
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.csproj.CoreCompileInputs.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\refint\Shoeses.Contracts.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\ref\Shoeses.Contracts.dll

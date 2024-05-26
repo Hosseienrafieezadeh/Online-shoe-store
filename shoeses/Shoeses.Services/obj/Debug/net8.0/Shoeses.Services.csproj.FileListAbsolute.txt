@@ -1,0 +1,11 @@
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\bin\Debug\net8.0\Shoeses.Services.deps.json
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\bin\Debug\net8.0\Shoeses.Services.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\bin\Debug\net8.0\Shoeses.Services.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.AssemblyInfoInputs.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.AssemblyInfo.cs
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.csproj.CoreCompileInputs.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\refint\Shoeses.Services.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\ref\Shoeses.Services.dll

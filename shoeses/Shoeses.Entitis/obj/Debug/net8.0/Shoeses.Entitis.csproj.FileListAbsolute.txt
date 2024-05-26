@@ -1,0 +1,14 @@
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\bin\Debug\net8.0\Shoeses.Entitis.deps.json
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\bin\Debug\net8.0\Shoeses.Entitis.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\bin\Debug\net8.0\Shoeses.Entitis.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.csproj.AssemblyReference.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.GeneratedMSBuildEditorConfig.editorconfig
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.AssemblyInfoInputs.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.AssemblyInfo.cs
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.csproj.CoreCompileInputs.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\refint\Shoeses.Entitis.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\ref\Shoeses.Entitis.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\bin\Debug\net8.0\Shoeses.Entitis.runtimeconfig.json
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.genruntimeconfig.cache
