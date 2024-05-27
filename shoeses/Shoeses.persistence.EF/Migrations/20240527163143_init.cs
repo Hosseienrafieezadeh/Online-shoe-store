@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Shoeses.persistence.EF.Migrations
 {
     /// <inheritdoc />
-    public partial class h1 : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -274,18 +274,11 @@ namespace Shoeses.persistence.EF.Migrations
                     OrderStatus = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ShippingAddressId = table.Column<int>(type: "int", nullable: false),
-                    BillingAddressId = table.Column<int>(type: "int", nullable: false),
                     ShoppingCartId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Orders", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Orders_Addresses_BillingAddressId",
-                        column: x => x.BillingAddressId,
-                        principalTable: "Addresses",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Orders_Addresses_ShippingAddressId",
                         column: x => x.ShippingAddressId,
@@ -478,11 +471,6 @@ namespace Shoeses.persistence.EF.Migrations
                 name: "IX_OrderDetails_ProductId",
                 table: "OrderDetails",
                 column: "ProductId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Orders_BillingAddressId",
-                table: "Orders",
-                column: "BillingAddressId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Orders_ShippingAddressId",

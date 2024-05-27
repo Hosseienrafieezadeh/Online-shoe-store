@@ -10,3 +10,9 @@ F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\refint\Shoeses.
 F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.pdb
 F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\ref\Shoeses.Services.dll
 F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.sourcelink.json
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\bin\Debug\net8.0\Shoeses.Contracts.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\bin\Debug\net8.0\Shoeses.Entitis.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\bin\Debug\net8.0\Shoeses.Contracts.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\bin\Debug\net8.0\Shoeses.Entitis.pdb
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses.Services.csproj.AssemblyReference.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Services\obj\Debug\net8.0\Shoeses..938FD5C8.Up2Date

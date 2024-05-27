@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Shoeses.Contracts\Shoeses.Contracts.csproj" />
     <ProjectReference Include="..\Shoeses.Entitis\Shoeses.Entitis.csproj" />
+    <ProjectReference Include="..\Shoeses.Services\Shoeses.Services.csproj" />
   </ItemGroup>
 
 </Project>

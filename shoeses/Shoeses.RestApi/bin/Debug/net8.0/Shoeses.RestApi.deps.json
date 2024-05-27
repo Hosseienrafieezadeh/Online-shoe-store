@@ -989,10 +989,20 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
           "Shoeses.Contracts": "1.0.0",
           "Shoeses.Entitis": "1.0.0",
+          "Shoeses.Services": "1.0.0",
           "System.Diagnostics.Tools": "4.3.0"
         },
         "runtime": {
           "Shoeses.persistence.EF.dll": {}
+        }
+      },
+      "Shoeses.Services/1.0.0": {
+        "dependencies": {
+          "Shoeses.Contracts": "1.0.0",
+          "Shoeses.Entitis": "1.0.0"
+        },
+        "runtime": {
+          "Shoeses.Services.dll": {}
         }
       }
     }
@@ -1623,6 +1633,11 @@
       "sha512": ""
     },
     "Shoeses.persistence.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shoeses.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

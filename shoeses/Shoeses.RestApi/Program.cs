@@ -1,7 +1,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Shoeses.Contracts.Interface;
 using Shoeses.Entitis.Users;
 using Shoeses.persistence.EF;
+using Shoeses.persistence.EF.Addresses;
+using Shoeses.persistence.EF.Users;
+using Shoeses.Services.Addresses;
+using Shoeses.Services.Addresses.Contracts;
+using Shoeses.Services.Users;
+using Shoeses.Services.Users.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +26,11 @@ builder.Services
     .AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<EFDataContext>()
     .AddDefaultTokenProviders();
+builder.Services.AddScoped<UnitOfWork, EFUnitOfWork>();
+builder.Services.AddScoped<UserService, UserAppService>();
+builder.Services.AddScoped<addressService, AddressAppService>();
+builder.Services.AddScoped<userRepository, EFUserRepository>();
+builder.Services.AddScoped<AdressRepository, EFAdressRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

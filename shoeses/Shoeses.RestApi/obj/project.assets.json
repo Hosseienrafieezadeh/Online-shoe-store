@@ -1704,6 +1704,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
           "Shoeses.Contracts": "1.0.0",
           "Shoeses.Entitis": "1.0.0",
+          "Shoeses.Services": "1.0.0",
           "System.Diagnostics.Tools": "4.3.0"
         },
         "compile": {
@@ -1711,6 +1712,20 @@
         },
         "runtime": {
           "bin/placeholder/Shoeses.persistence.EF.dll": {}
+        }
+      },
+      "Shoeses.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Shoeses.Contracts": "1.0.0",
+          "Shoeses.Entitis": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shoeses.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shoeses.Services.dll": {}
         }
       }
     }
@@ -4772,6 +4787,11 @@
       "type": "project",
       "path": "../Shoeses.persistence.EF/Shoeses.persistence.EF.csproj",
       "msbuildProject": "../Shoeses.persistence.EF/Shoeses.persistence.EF.csproj"
+    },
+    "Shoeses.Services/1.0.0": {
+      "type": "project",
+      "path": "../Shoeses.Services/Shoeses.Services.csproj",
+      "msbuildProject": "../Shoeses.Services/Shoeses.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {

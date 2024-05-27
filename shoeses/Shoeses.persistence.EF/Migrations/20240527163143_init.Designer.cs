@@ -12,8 +12,8 @@ using Shoeses.persistence.EF;
 namespace Shoeses.persistence.EF.Migrations
 {
     [DbContext(typeof(EFDataContext))]
-    [Migration("20240526183741_h1")]
-    partial class h1
+    [Migration("20240527163143_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -263,9 +263,6 @@ namespace Shoeses.persistence.EF.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BillingAddressId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
@@ -288,8 +285,6 @@ namespace Shoeses.persistence.EF.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("BillingAddressId");
 
                     b.HasIndex("ShippingAddressId");
 
@@ -653,12 +648,6 @@ namespace Shoeses.persistence.EF.Migrations
 
             modelBuilder.Entity("Shoeses.Entitis.Orders.Order", b =>
                 {
-                    b.HasOne("Shoeses.Entitis.Addresses.Address", "BillingAddress")
-                        .WithMany()
-                        .HasForeignKey("BillingAddressId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.HasOne("Shoeses.Entitis.Addresses.Address", "ShippingAddress")
                         .WithMany()
                         .HasForeignKey("ShippingAddressId")
@@ -676,8 +665,6 @@ namespace Shoeses.persistence.EF.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.Navigation("BillingAddress");
 
                     b.Navigation("ShippingAddress");
 

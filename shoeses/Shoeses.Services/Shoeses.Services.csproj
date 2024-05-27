@@ -6,4 +6,30 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Categoryes\Contracts\Dtos\" />
+    <Folder Include="Categoryes\Contracts\Exeptions\" />
+    <Folder Include="OrderDetails\Contracts\Dtos\" />
+    <Folder Include="OrderDetails\Contracts\Exeptions\" />
+    <Folder Include="Orders\Contracts\Dtos\" />
+    <Folder Include="Orders\Contracts\Exeptions\" />
+    <Folder Include="Payments\Contracts\Dtos\" />
+    <Folder Include="Payments\Contracts\Exeptions\" />
+    <Folder Include="ProductImages\Contracts\Dtos\" />
+    <Folder Include="ProductImages\Contracts\Exeptions\" />
+    <Folder Include="Products\Contracts\Dtos\" />
+    <Folder Include="Products\Contracts\Exeptions\" />
+    <Folder Include="Promotions\Contracts\Dtos\" />
+    <Folder Include="Promotions\Contracts\Exeptions\" />
+    <Folder Include="Reviews\Contracts\Dtos\" />
+    <Folder Include="Reviews\Contracts\Exeptions\" />
+    <Folder Include="ShoppingCarts\Contracts\Dtos\" />
+    <Folder Include="ShoppingCarts\Contracts\Exeptions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shoeses.Contracts\Shoeses.Contracts.csproj" />
+    <ProjectReference Include="..\Shoeses.Entitis\Shoeses.Entitis.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shoeses.persistence.EF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+699decac6d9ad294ac9692876c985fa81a66acd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb9cdc117644b822d22d3e541df0898688a0395")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shoeses.persistence.EF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shoeses.persistence.EF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
