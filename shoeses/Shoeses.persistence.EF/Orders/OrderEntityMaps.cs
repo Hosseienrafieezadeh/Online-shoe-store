@@ -35,10 +35,10 @@ namespace Shoeses.persistence.EF.Orders
             .OnDelete(DeleteBehavior.Restrict);
 
         // تنظیم رابطه با BillingAddress
-        builder.HasOne(o => o.BillingAddress)
-            .WithMany()
-            .HasForeignKey(o => o.BillingAddressId)
-            .OnDelete(DeleteBehavior.Restrict);
+        //builder.HasOne(o => o.BillingAddress)
+        //    .WithMany()
+        //    .HasForeignKey(o => o.BillingAddressId)
+        //    .OnDelete(DeleteBehavior.Restrict);
 
         // تنظیم رابطه با ShoppingCart
         builder.HasOne(o => o.ShoppingCart)

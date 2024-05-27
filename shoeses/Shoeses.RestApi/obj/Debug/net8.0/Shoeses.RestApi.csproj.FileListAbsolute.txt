@@ -146,3 +146,4 @@ F:\youTube_WebApi\asli\shoeses\Shoeses.RestApi\bin\Debug\net8.0\ru\Microsoft.Cod
 F:\youTube_WebApi\asli\shoeses\Shoeses.RestApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\youTube_WebApi\asli\shoeses\Shoeses.RestApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\youTube_WebApi\asli\shoeses\Shoeses.RestApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.RestApi\obj\Debug\net8.0\Shoeses.RestApi.sourcelink.json

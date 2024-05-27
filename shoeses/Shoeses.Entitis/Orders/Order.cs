@@ -25,8 +25,8 @@ namespace Shoeses.Entitis.Orders
         // اضافه کردن خصوصیات مربوط به آدرس
         public int ShippingAddressId { get; set; }  // شناسه آدرس ارسال کالا
         public Address ShippingAddress { get; set; }  // شیء آدرس ارسال کالا
-        public int BillingAddressId { get; set; }  // شناسه آدرس صورتحساب
-        public Address BillingAddress { get; set; }  // شیء آدرس صورتحساب
+        //public int BillingAddressId { get; set; }  // شناسه آدرس صورتحساب  
+        //public Address BillingAddress { get; set; }  // شیء آدرس صورتحساب
 
         // اضافه کردن رابطه با سبد خرید
         public int ShoppingCartId { get; set; }  // شناسه سبد خرید مرتبط

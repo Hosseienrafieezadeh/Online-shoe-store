@@ -12,3 +12,4 @@ F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.
 F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\ref\Shoeses.Entitis.dll
 F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\bin\Debug\net8.0\Shoeses.Entitis.runtimeconfig.json
 F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.genruntimeconfig.cache
+F:\youTube_WebApi\asli\shoeses\Shoeses.Entitis\obj\Debug\net8.0\Shoeses.Entitis.sourcelink.json

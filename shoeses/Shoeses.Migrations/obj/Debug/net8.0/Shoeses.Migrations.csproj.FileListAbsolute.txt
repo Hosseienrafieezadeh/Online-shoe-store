@@ -96,3 +96,4 @@ F:\youTube_WebApi\asli\shoeses\Shoeses.Migrations\obj\Debug\net8.0\refint\Shoese
 F:\youTube_WebApi\asli\shoeses\Shoeses.Migrations\obj\Debug\net8.0\Shoeses.Migrations.pdb
 F:\youTube_WebApi\asli\shoeses\Shoeses.Migrations\obj\Debug\net8.0\Shoeses.Migrations.genruntimeconfig.cache
 F:\youTube_WebApi\asli\shoeses\Shoeses.Migrations\obj\Debug\net8.0\ref\Shoeses.Migrations.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Migrations\obj\Debug\net8.0\Shoeses.Migrations.sourcelink.json

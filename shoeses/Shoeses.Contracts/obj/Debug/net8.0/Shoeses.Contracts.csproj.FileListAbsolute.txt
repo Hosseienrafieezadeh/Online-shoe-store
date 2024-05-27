@@ -9,3 +9,4 @@ F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contra
 F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\refint\Shoeses.Contracts.dll
 F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.pdb
 F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\ref\Shoeses.Contracts.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.Contracts\obj\Debug\net8.0\Shoeses.Contracts.sourcelink.json

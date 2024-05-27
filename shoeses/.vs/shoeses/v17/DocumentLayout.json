@@ -1,12 +1,373 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\youTube_WebApi\\asli\\shoeses\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261152_productmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261152_productmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261150_promotionmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261150_promotionmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|solutionrelative:shoeses.restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261209_productsimagemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261209_productsimagemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261154_orderdetailmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261154_orderdetailmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261147_shopingcartmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261147_shopingcartmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261151_shopingcartitemmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261151_shopingcartitemmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.entitis\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|solutionrelative:shoeses.entitis\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.entitis\\shoppingcarts\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|solutionrelative:shoeses.entitis\\shoppingcarts\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261153_ordermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261153_ordermigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.entitis\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|solutionrelative:shoeses.entitis\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.entitis\\shoppingcarts\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|solutionrelative:shoeses.entitis\\shoppingcarts\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.persistence.ef\\products\\productentitymaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|solutionrelative:shoeses.persistence.ef\\products\\productentitymaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261204_paymentmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261204_paymentmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.persistence.ef\\orderdetails\\orderdetailentitymaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|solutionrelative:shoeses.persistence.ef\\orderdetails\\orderdetailentitymaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.persistence.ef\\orders\\orderentitymaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|solutionrelative:shoeses.persistence.ef\\orders\\orderentitymaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261119_identitymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261119_identitymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.entitis\\orderdetails\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|solutionrelative:shoeses.entitis\\orderdetails\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.entitis\\addresses\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFD5646-E296-4FCB-B7A1-BE758E629FF5}|Shoeses.Entitis\\Shoeses.Entitis.csproj|solutionrelative:shoeses.entitis\\addresses\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261144_categoryesmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261144_categoryesmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.migrations\\202405261132_adressesmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA1251-92E1-4930-861D-DFAF567BEC4F}|Shoeses.Migrations\\Shoeses.Migrations.csproj|solutionrelative:shoeses.migrations\\202405261132_adressesmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "202405261152_ProductMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261152_ProductMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261152_ProductMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261152_ProductMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261152_ProductMigration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:32:06.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Shoeses.RestApi\\appsettings.json",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\appsettings.json",
+              "RelativeToolTip": "Shoeses.RestApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T16:22:55.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "202405261150_PromotionMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261150_PromotionMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261150_PromotionMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261150_PromotionMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261150_PromotionMigration.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:19:01.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\Products\\Product.cs",
+              "RelativeDocumentMoniker": "Shoeses.Entitis\\Products\\Product.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\Products\\Product.cs",
+              "RelativeToolTip": "Shoeses.Entitis\\Products\\Product.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:14:50.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\ShoppingCarts\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "Shoeses.Entitis\\ShoppingCarts\\ShoppingCartItem.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\ShoppingCarts\\ShoppingCartItem.cs",
+              "RelativeToolTip": "Shoeses.Entitis\\ShoppingCarts\\ShoppingCartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:14:39.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "202405261209_ProductsImageMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261209_ProductsImageMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261209_ProductsImageMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261209_ProductsImageMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261209_ProductsImageMigration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:32:04.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "202405261151_ShopingCartItemMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261151_ShopingCartItemMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261151_ShopingCartItemMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261151_ShopingCartItemMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261151_ShopingCartItemMigration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:36:31.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "202405261147_ShopingCartMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261147_ShopingCartMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261147_ShopingCartMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261147_ShopingCartMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261147_ShopingCartMigration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:33:55.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "202405261154_OrderDetailMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261154_OrderDetailMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261154_OrderDetailMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261154_OrderDetailMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261154_OrderDetailMigration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:51:37.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "202405261153_OrderMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261153_OrderMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261153_OrderMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261153_OrderMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261153_OrderMigration.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA/wC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:35:43.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\ShoppingCarts\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Shoeses.Entitis\\ShoppingCarts\\ShoppingCart.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\ShoppingCarts\\ShoppingCart.cs",
+              "RelativeToolTip": "Shoeses.Entitis\\ShoppingCarts\\ShoppingCart.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:39:40.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "202405261204_PaymentMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261204_PaymentMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261204_PaymentMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261204_PaymentMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261204_PaymentMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:49:14.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetailEntityMaps.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\OrderDetails\\OrderDetailEntityMaps.cs",
+              "RelativeDocumentMoniker": "Shoeses.persistence.EF\\OrderDetails\\OrderDetailEntityMaps.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\OrderDetails\\OrderDetailEntityMaps.cs",
+              "RelativeToolTip": "Shoeses.persistence.EF\\OrderDetails\\OrderDetailEntityMaps.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:47:34.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\Orders\\Order.cs",
+              "RelativeDocumentMoniker": "Shoeses.Entitis\\Orders\\Order.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\Orders\\Order.cs",
+              "RelativeToolTip": "Shoeses.Entitis\\Orders\\Order.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:45:31.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderEntityMaps.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\Orders\\OrderEntityMaps.cs",
+              "RelativeDocumentMoniker": "Shoeses.persistence.EF\\Orders\\OrderEntityMaps.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\Orders\\OrderEntityMaps.cs",
+              "RelativeToolTip": "Shoeses.persistence.EF\\Orders\\OrderEntityMaps.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwC0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:19:18.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductEntityMaps.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\Products\\ProductEntityMaps.cs",
+              "RelativeDocumentMoniker": "Shoeses.persistence.EF\\Products\\ProductEntityMaps.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\Products\\ProductEntityMaps.cs",
+              "RelativeToolTip": "Shoeses.persistence.EF\\Products\\ProductEntityMaps.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:49:44.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "202405261119_IdentityMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261119_IdentityMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261119_IdentityMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261119_IdentityMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261119_IdentityMigration.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:48:09.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Address.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\Addresses\\Address.cs",
+              "RelativeDocumentMoniker": "Shoeses.Entitis\\Addresses\\Address.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\Addresses\\Address.cs",
+              "RelativeToolTip": "Shoeses.Entitis\\Addresses\\Address.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:56:13.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\OrderDetails\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Shoeses.Entitis\\OrderDetails\\OrderDetail.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Entitis\\OrderDetails\\OrderDetail.cs",
+              "RelativeToolTip": "Shoeses.Entitis\\OrderDetails\\OrderDetail.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:24:40.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "202405261144_CategoryesMigration.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261144_CategoryesMigration.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261144_CategoryesMigration.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261144_CategoryesMigration.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261144_CategoryesMigration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:41:16.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "202405261132_AdressesMigrations.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261132_AdressesMigrations.cs",
+              "RelativeDocumentMoniker": "Shoeses.Migrations\\202405261132_AdressesMigrations.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Migrations\\202405261132_AdressesMigrations.cs",
+              "RelativeToolTip": "Shoeses.Migrations\\202405261132_AdressesMigrations.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:41:24.34Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

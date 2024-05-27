@@ -17,3 +17,4 @@ F:\youTube_WebApi\asli\shoeses\Shoeses.persistence.EF\obj\Debug\net8.0\refint\Sh
 F:\youTube_WebApi\asli\shoeses\Shoeses.persistence.EF\obj\Debug\net8.0\Shoeses.persistence.EF.pdb
 F:\youTube_WebApi\asli\shoeses\Shoeses.persistence.EF\obj\Debug\net8.0\Shoeses.persistence.EF.genruntimeconfig.cache
 F:\youTube_WebApi\asli\shoeses\Shoeses.persistence.EF\obj\Debug\net8.0\ref\Shoeses.persistence.EF.dll
+F:\youTube_WebApi\asli\shoeses\Shoeses.persistence.EF\obj\Debug\net8.0\Shoeses.persistence.EF.sourcelink.json

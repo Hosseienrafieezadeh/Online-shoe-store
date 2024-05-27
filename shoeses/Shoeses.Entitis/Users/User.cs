@@ -17,7 +17,7 @@ namespace Shoeses.Entitis.Users
         public string LastName { get; set; }  // نام خانوادگی کاربر
         public List<Address> Addresses { get; set; } = new();  // لیستی از آدرس‌های کاربر
         public List<Order> Orders { get; set; } = new();  // لیستی از سفارش‌های کاربر
-        public List<Review> Reviews { get; set; }=new();
-        public List<ShoppingCart> ShoppingCarts { get; set; }=new();
+        public List<Review> Reviews { get; set; } = new();  // لیستی از نقدهای کاربر
+        public List<ShoppingCart> ShoppingCarts { get; set; } = new();  // لیستی از سبدهای خرید کاربر
     }
 }
