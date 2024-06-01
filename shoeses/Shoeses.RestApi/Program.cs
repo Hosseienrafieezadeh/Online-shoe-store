@@ -18,6 +18,7 @@ using Shoeses.Services.Reviews.Contracts;
 using Shoeses.Services.Reviews;
 using Shoeses.Services.Users;
 using Shoeses.Services.Users.Contracts;
+using Shoeses.Services.Products;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +46,9 @@ builder.Services.AddScoped<CatecoryesRepository, EFCategoryesRepository>();
 builder.Services.AddScoped<ProductRepository,EFProductRepository>();
 builder.Services.AddScoped<ReviewService, ReviewAppService>();
 builder.Services.AddScoped<ReviewRepository, EFReviewRepository>();
+builder.Services.AddScoped<ProductService, ProductAppService>();
+builder.Services.AddScoped<ProductRepository, EFProductRepository>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

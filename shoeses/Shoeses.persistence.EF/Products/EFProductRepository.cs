@@ -23,6 +23,7 @@ namespace Shoeses.persistence.EF.Products
         {
             _context = context;
         }
+
         public void Add(Product product)
         {
             _context.Products.Add(product);
@@ -40,9 +41,8 @@ namespace Shoeses.persistence.EF.Products
 
         public Product? Find(int Id)
         {
-           return _context.Products.FirstOrDefault(_ => _.Id == Id);
+            return _context.Products.FirstOrDefault(_ => _.Id == Id);
         }
-
 
         public async Task<List<GetProductDto>> GetAll()
         {
@@ -90,16 +90,25 @@ namespace Shoeses.persistence.EF.Products
 
             return products;
         }
-    
 
         public bool IsExistProduct(int id)
         {
             return _context.Products.Any(_ => _.Id == id);
         }
 
-        public bool IsExistPromotion(int id)
+        public async Task<bool> IsExistPromotion(int id)
         {
-            return _context.Promotions.Any(_ => _.Id == id);
+            return await _context.Promotions.AnyAsync(_ => _.Id == id);
+        }
+
+        public async Task<bool> IsExsitCategoris(int id)
+        {
+            return await _context.Categories.AnyAsync(c => c.Id == id);
+        }
+
+        public async Task<bool> IsExistCategoryByName(string name)  // پیاده‌سازی متد بررسی وجود دسته‌بندی با نام خاص
+        {
+            return await _context.Categories.AnyAsync(c => c.Name == name);
         }
     }
 }

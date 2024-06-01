@@ -16,10 +16,11 @@ namespace Shoeses.Services.Products.Contracts
         void Update(Product product);
         void Delete(Product product);
         Product? Find(int Id);
-      
         Task<List<GetProductDto>> GetAll();
         bool IsExistProduct(int id);
-        bool IsExistPromotion(int id);
-       
+        Task<bool> IsExistPromotion(int id);
+        Task<bool> IsExsitCategoris(int id);
+        Task<bool> IsExistCategoryByName(string name);
+
     }
 }

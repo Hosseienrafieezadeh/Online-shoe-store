@@ -14,12 +14,12 @@ namespace Shoeses.Services.Products.Contracts.Dtos
 {
    public class GetProductDto
     {
-        public int Id { get; set; }  // شناسه یکتا برای محصول
-        public string Name { get; set; }  // نام محصول
-        public string Description { get; set; }  // توضیحات محصول
-        public decimal Price { get; set; }  // قیمت محصول
-        public int Count { get; set; }  // تعداد موجودی محصول
-        public int CategoryId { get; set; }  // شناسه دسته‌بندی محصول
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+        public int Count { get; set; }
+        public int CategoryId { get; set; }
         public int PromotionId { get; set; }
         public GetCategoryDto Category { get; set; }
         public GetPromotionDto Promotion { get; set; }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shoeses.Services.Categoryes;
+using Shoeses.Services.Categoryes.Contracts;
 using Shoeses.Services.Categoryes.Contracts.Dtos;
 using Shoeses.Services.Users.Contracts.Dtos;
 using Shoeses.Services.Users.Contracts;
@@ -11,9 +12,9 @@ namespace Shoeses.RestApi.Controllers.Categories
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly CategoryAppServiec _serviec;
+        private readonly CategoryService _serviec;
 
-        public CategoryController(CategoryAppServiec serviec)
+        public CategoryController(CategoryService serviec)
         {
             _serviec = serviec;
         }

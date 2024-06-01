@@ -13,8 +13,6 @@
     <Folder Include="Orders\Contracts\Exeptions\" />
     <Folder Include="Payments\Contracts\Dtos\" />
     <Folder Include="Payments\Contracts\Exeptions\" />
-    <Folder Include="ProductImages\Contracts\Exeptions\" />
-    <Folder Include="Products\Contracts\Exeptions\" />
     <Folder Include="Promotions\Contracts\Exeptions\" />
     <Folder Include="ShoppingCarts\Contracts\Dtos\" />
     <Folder Include="ShoppingCarts\Contracts\Exeptions\" />
