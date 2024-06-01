@@ -62,7 +62,7 @@ namespace Shoeses.Services.Users
 
         public async Task Update(string id, UpdateUserDto dto)
         {
-            var user = _repository.Find(id);
+            var user = _repository.Find(id); 
             if (user == null)
             {
                 throw new UserNotFoundException();

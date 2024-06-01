@@ -45,7 +45,7 @@ namespace Shoeses.Services.Categoryes
                 Price = _.Price,
                 Count = _.Count,
                 CategoryId = category.Id,
-                PromotionId = _.PromotionId
+                PromotionId = _.PromotionId,
             }).ToList();
 
             _repository.Update(category);

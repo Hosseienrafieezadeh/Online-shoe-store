@@ -1,122 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\youTube_WebApi\\asli\\shoeses\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.services\\users\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|solutionrelative:shoeses.services\\users\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|solutionrelative:shoeses.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.services\\categoryes\\contracts\\catecoryesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|solutionrelative:shoeses.services\\categoryes\\contracts\\catecoryesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.services\\categoryes\\contracts\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|solutionrelative:shoeses.services\\categoryes\\contracts\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.services\\categoryes\\contracts\\dtos\\addcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|solutionrelative:shoeses.services\\categoryes\\contracts\\dtos\\addcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.persistence.ef\\products\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE72140-D2DF-4BF3-B89A-8E73A229242A}|Shoeses.persistence.EF\\Shoeses.persistence.EF.csproj|solutionrelative:shoeses.persistence.ef\\products\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddCategoryDto.cs",
-              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Categoryes\\Contracts\\Dtos\\AddCategoryDto.cs",
-              "RelativeDocumentMoniker": "Shoeses.Services\\Categoryes\\Contracts\\Dtos\\AddCategoryDto.cs",
-              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Categoryes\\Contracts\\Dtos\\AddCategoryDto.cs",
-              "RelativeToolTip": "Shoeses.Services\\Categoryes\\Contracts\\Dtos\\AddCategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T19:23:04.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EFProductRepository.cs",
-              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\Products\\EFProductRepository.cs",
-              "RelativeDocumentMoniker": "Shoeses.persistence.EF\\Products\\EFProductRepository.cs",
-              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.persistence.EF\\Products\\EFProductRepository.cs",
-              "RelativeToolTip": "Shoeses.persistence.EF\\Products\\EFProductRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T19:20:16.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Categoryes\\Contracts\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Shoeses.Services\\Categoryes\\Contracts\\CategoryService.cs",
-              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Categoryes\\Contracts\\CategoryService.cs",
-              "RelativeToolTip": "Shoeses.Services\\Categoryes\\Contracts\\CategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T19:17:28.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CatecoryesRepository.cs",
-              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Categoryes\\Contracts\\CatecoryesRepository.cs",
-              "RelativeDocumentMoniker": "Shoeses.Services\\Categoryes\\Contracts\\CatecoryesRepository.cs",
-              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Categoryes\\Contracts\\CatecoryesRepository.cs",
-              "RelativeToolTip": "Shoeses.Services\\Categoryes\\Contracts\\CatecoryesRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T19:17:24.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Program.cs",
-              "RelativeDocumentMoniker": "Shoeses.RestApi\\Program.cs",
-              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Program.cs",
-              "RelativeToolTip": "Shoeses.RestApi\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T19:15:52.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserAppService.cs",
-              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Users\\UserAppService.cs",
-              "RelativeDocumentMoniker": "Shoeses.Services\\Users\\UserAppService.cs",
-              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Users\\UserAppService.cs",
-              "RelativeToolTip": "Shoeses.Services\\Users\\UserAppService.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T19:10:52.088Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

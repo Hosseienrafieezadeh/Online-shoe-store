@@ -10,14 +10,16 @@ namespace Shoeses.Services.Reviews.Contracts.Dtos
     public class AddReviewDto
     {
         [Required]
-        public string? UserId { get; set; }  // شناسه کاربری که این نقد و بررسی را نوشته است
+        public string UserId { get; set; }
+
         [Required]
-        public int? ProductId { get; set; }  // شناسه محصول مورد بررسی
-        [Required]
-        public int? Rating { get; set; }  // امتیاز (مثلاً از 1 تا 5)
-        [Required]
-        public string? Comment { get; set; }  // متن نقد و بررسی
-        [Required]
-        public DateTime? ReviewDate { get; set; }  // تاریخ نوشتن نقد و بررسی
+        public int ProductId { get; set; }
+
+        [Range(1, 5)]
+        public int Rating { get; set; }
+
+        public string Comment { get; set; }
+
+        public DateTime ReviewDate { get; set; } = DateTime.UtcNow;
     }
 }

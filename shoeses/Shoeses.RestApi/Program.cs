@@ -6,6 +6,7 @@ using Shoeses.persistence.EF;
 using Shoeses.persistence.EF.Addresses;
 using Shoeses.persistence.EF.Categoryes;
 using Shoeses.persistence.EF.Products;
+using Shoeses.persistence.EF.Reviews;
 using Shoeses.persistence.EF.Users;
 using Shoeses.Services.Addresses;
 using Shoeses.Services.Addresses.Contracts;
@@ -13,6 +14,8 @@ using Shoeses.Services.Categoryes;
 using Shoeses.Services.Categoryes.Contracts;
 using Shoeses.Services.Categoryes.Contracts.Dtos;
 using Shoeses.Services.Products.Contracts;
+using Shoeses.Services.Reviews.Contracts;
+using Shoeses.Services.Reviews;
 using Shoeses.Services.Users;
 using Shoeses.Services.Users.Contracts;
 
@@ -40,6 +43,8 @@ builder.Services.AddScoped<AdressRepository, EFAdressRepository>();
 builder.Services.AddScoped<CategoryService, CategoryAppServiec>();
 builder.Services.AddScoped<CatecoryesRepository, EFCategoryesRepository>();
 builder.Services.AddScoped<ProductRepository,EFProductRepository>();
+builder.Services.AddScoped<ReviewService, ReviewAppService>();
+builder.Services.AddScoped<ReviewRepository, EFReviewRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

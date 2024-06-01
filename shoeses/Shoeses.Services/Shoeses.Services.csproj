@@ -16,7 +16,6 @@
     <Folder Include="ProductImages\Contracts\Exeptions\" />
     <Folder Include="Products\Contracts\Exeptions\" />
     <Folder Include="Promotions\Contracts\Exeptions\" />
-    <Folder Include="Reviews\Contracts\Exeptions\" />
     <Folder Include="ShoppingCarts\Contracts\Dtos\" />
     <Folder Include="ShoppingCarts\Contracts\Exeptions\" />
   </ItemGroup>
