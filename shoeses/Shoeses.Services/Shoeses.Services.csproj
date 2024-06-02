@@ -7,14 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="OrderDetails\Contracts\Dtos\" />
     <Folder Include="OrderDetails\Contracts\Exeptions\" />
-    <Folder Include="Orders\Contracts\Dtos\" />
-    <Folder Include="Orders\Contracts\Exeptions\" />
     <Folder Include="Payments\Contracts\Dtos\" />
     <Folder Include="Payments\Contracts\Exeptions\" />
-    <Folder Include="ShoppingCarts\Contracts\Dtos\" />
-    <Folder Include="ShoppingCarts\Contracts\Exeptions\" />
   </ItemGroup>
 
   <ItemGroup>

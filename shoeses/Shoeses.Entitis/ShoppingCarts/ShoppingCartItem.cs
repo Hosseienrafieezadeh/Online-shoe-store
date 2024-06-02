@@ -16,5 +16,7 @@ namespace Shoeses.Entitis.ShoppingCarts
         public int Quantity { get; set; }  // تعداد محصول در سبد خرید
         public int ShoppingCartId { get; set; }  // شناسه سبد خرید مرتبط
         public ShoppingCart ShoppingCart { get; set; }  // شیء سبد خرید مرتبط
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
     }
 }

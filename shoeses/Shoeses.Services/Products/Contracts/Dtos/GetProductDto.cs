@@ -24,7 +24,8 @@ namespace Shoeses.Services.Products.Contracts.Dtos
         public GetCategoryDto Category { get; set; }
         public GetPromotionDto Promotion { get; set; }
         public List<GetProductImageDto> ProductImages { get; set; }
-        public List<GetReviewsDto> Reviews { get; set; }
+        public List< GetReviewsDto> Reviews { get; set; } // 
+
 
     }
 }

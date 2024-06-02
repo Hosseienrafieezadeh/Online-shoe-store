@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\youTube_WebApi\\asli\\shoeses\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|solutionrelative:shoeses.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Program.cs",
+              "RelativeDocumentMoniker": "Shoeses.RestApi\\Program.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Program.cs",
+              "RelativeToolTip": "Shoeses.RestApi\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T20:11:10.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -15,7 +15,8 @@ namespace Shoeses.Migrations
             Create.Table("ShoppingCartItems")
                 .WithColumn("Id").AsInt32().PrimaryKey().Identity()
                 .WithColumn("Quantity").AsInt32().NotNullable()
-                .WithColumn("ShoppingCartId").AsInt32().NotNullable().ForeignKey("ShoppingCarts", "Id");
+                .WithColumn("ShoppingCartId").AsInt32().NotNullable().ForeignKey("ShoppingCarts", "Id")
+                .WithColumn("ProductId").AsInt32().NotNullable().ForeignKey("Products", "Id");
         }
 
         public override void Down()
