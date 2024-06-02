@@ -6,6 +6,7 @@ using Shoeses.persistence.EF;
 using Shoeses.persistence.EF.Addresses;
 using Shoeses.persistence.EF.Categoryes;
 using Shoeses.persistence.EF.Products;
+using Shoeses.persistence.EF.Promotions;
 using Shoeses.persistence.EF.Reviews;
 using Shoeses.persistence.EF.Users;
 using Shoeses.Services.Addresses;
@@ -19,6 +20,8 @@ using Shoeses.Services.Reviews;
 using Shoeses.Services.Users;
 using Shoeses.Services.Users.Contracts;
 using Shoeses.Services.Products;
+using Shoeses.Services.Promotions;
+using Shoeses.Services.Promotions.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,6 +51,8 @@ builder.Services.AddScoped<ReviewService, ReviewAppService>();
 builder.Services.AddScoped<ReviewRepository, EFReviewRepository>();
 builder.Services.AddScoped<ProductService, ProductAppService>();
 builder.Services.AddScoped<ProductRepository, EFProductRepository>();
+builder.Services.AddScoped<PromotionService, PromotionAppService>();
+builder.Services.AddScoped<PromotionRepository, EFPromotionRepository>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
