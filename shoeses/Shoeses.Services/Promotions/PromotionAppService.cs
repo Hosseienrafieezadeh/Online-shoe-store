@@ -8,7 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Shoeses.Services.Products.Contracts.Dtos;
+using Shoeses.Services.Products.Contracts.Exeptions;
 using Shoeses.Services.Promotions.Contracts;
+using Shoeses.Services.Promotions.Contracts.Exeptions;
 
 namespace Shoeses.Services.Promotions
 {
@@ -43,7 +45,7 @@ namespace Shoeses.Services.Promotions
         {
             var promotion = _repository.Find(id);
             if (promotion == null)
-                throw new KeyNotFoundException();
+                throw new PromtionnotFoundupdateException();
 
             promotion.Code = dto.Code;
             promotion.Description = dto.Description;
@@ -60,7 +62,7 @@ namespace Shoeses.Services.Promotions
         {
             var promotion = _repository.Find(id);
             if (promotion == null)
-                throw new KeyNotFoundException();
+                throw new PromtionNotFoundtoDeleteException();
 
             _repository.Delete(promotion);
             await _unitOfWork.Complete();
@@ -89,7 +91,7 @@ namespace Shoeses.Services.Promotions
         {
             var promotion = _repository.Find(id);
             if (promotion == null)
-                throw new KeyNotFoundException();
+                throw new PromotionNotFoundToGetByIdException();
 
             return new GetPromotionDto
             {

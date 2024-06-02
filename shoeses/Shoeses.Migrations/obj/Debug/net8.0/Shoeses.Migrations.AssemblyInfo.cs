@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shoeses.Migrations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+999a8d699a962abe22b7bbe3252f03ba58d70ca9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ebd2a3297c71e1bedab311e50d5e8a2089ccff9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shoeses.Migrations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shoeses.Migrations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
