@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shoeses.Entitis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b972ef99f3586d8a6f984a9c540e26af5b84289b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb51e7d722f90e255f5987bb57a785a01a1e90e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shoeses.Entitis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shoeses.Entitis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

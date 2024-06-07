@@ -476,6 +476,9 @@ namespace Shoeses.persistence.EF.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
@@ -483,6 +486,8 @@ namespace Shoeses.persistence.EF.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
 
                     b.HasIndex("ShoppingCartId");
 
@@ -743,11 +748,19 @@ namespace Shoeses.persistence.EF.Migrations
 
             modelBuilder.Entity("Shoeses.Entitis.ShoppingCarts.ShoppingCartItem", b =>
                 {
+                    b.HasOne("Shoeses.Entitis.Products.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("Shoeses.Entitis.ShoppingCarts.ShoppingCart", "ShoppingCart")
                         .WithMany("ShoppingCartItems")
                         .HasForeignKey("ShoppingCartId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("Product");
 
                     b.Navigation("ShoppingCart");
                 });

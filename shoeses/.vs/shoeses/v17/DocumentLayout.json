@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "F:\\youTube_WebApi\\asli\\shoeses\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|solutionrelative:shoeses.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E393A681-DEEA-4532-8326-875A8A0A34EC}|Shoeses.UnitTest\\Shoeses.UnitTest.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.unittest\\users\\userservicegetalltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E393A681-DEEA-4532-8326-875A8A0A34EC}|Shoeses.UnitTest\\Shoeses.UnitTest.csproj|solutionrelative:shoeses.unittest\\users\\userservicegetalltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.services\\users\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|solutionrelative:shoeses.services\\users\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E393A681-DEEA-4532-8326-875A8A0A34EC}|Shoeses.UnitTest\\Shoeses.UnitTest.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.unittest\\users\\userserviceupdatetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E393A681-DEEA-4532-8326-875A8A0A34EC}|Shoeses.UnitTest\\Shoeses.UnitTest.csproj|solutionrelative:shoeses.unittest\\users\\userserviceupdatetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E393A681-DEEA-4532-8326-875A8A0A34EC}|Shoeses.UnitTest\\Shoeses.UnitTest.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.unittest\\users\\usersserviceaddtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E393A681-DEEA-4532-8326-875A8A0A34EC}|Shoeses.UnitTest\\Shoeses.UnitTest.csproj|solutionrelative:shoeses.unittest\\users\\usersserviceaddtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.services\\addresses\\contracts\\dtos\\addadressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD9C9B8-180A-4EBA-9419-16E019EAC124}|Shoeses.Services\\Shoeses.Services.csproj|solutionrelative:shoeses.services\\addresses\\contracts\\dtos\\addadressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.restapi\\shoeses.restapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A73CB46-4E23-42C4-ADA2-33066CBD6F3B}|Shoeses.RestApi\\Shoeses.RestApi.csproj|solutionrelative:shoeses.restapi\\shoeses.restapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC1F90A-1E2E-4E17-86BC-0A048F831C11}|Shoeses.TestTools\\Shoeses.TestTools.csproj|f:\\youtube_webapi\\asli\\shoeses\\shoeses.testtools\\users\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC1F90A-1E2E-4E17-86BC-0A048F831C11}|Shoeses.TestTools\\Shoeses.TestTools.csproj|solutionrelative:shoeses.testtools\\users\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +43,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Program.cs",
-              "RelativeDocumentMoniker": "Shoeses.RestApi\\Program.cs",
-              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Program.cs",
-              "RelativeToolTip": "Shoeses.RestApi\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAEAAAAAxAAAA",
+              "Title": "UserServiceGetAllTest.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.UnitTest\\Users\\UserServiceGetAllTest.cs",
+              "RelativeDocumentMoniker": "Shoeses.UnitTest\\Users\\UserServiceGetAllTest.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.UnitTest\\Users\\UserServiceGetAllTest.cs",
+              "RelativeToolTip": "Shoeses.UnitTest\\Users\\UserServiceGetAllTest.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T20:11:10.155Z",
+              "WhenOpened": "2024-06-07T05:00:54.139Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddAdressDto.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Addresses\\Contracts\\Dtos\\AddAdressDto.cs",
+              "RelativeDocumentMoniker": "Shoeses.Services\\Addresses\\Contracts\\Dtos\\AddAdressDto.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Addresses\\Contracts\\Dtos\\AddAdressDto.cs",
+              "RelativeToolTip": "Shoeses.Services\\Addresses\\Contracts\\Dtos\\AddAdressDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T23:19:49.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersServiceAddTest.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.UnitTest\\Users\\UsersServiceAddTest.cs",
+              "RelativeDocumentMoniker": "Shoeses.UnitTest\\Users\\UsersServiceAddTest.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.UnitTest\\Users\\UsersServiceAddTest.cs",
+              "RelativeToolTip": "Shoeses.UnitTest\\Users\\UsersServiceAddTest.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T23:17:11.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserAppService.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Users\\UserAppService.cs",
+              "RelativeDocumentMoniker": "Shoeses.Services\\Users\\UserAppService.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.Services\\Users\\UserAppService.cs",
+              "RelativeToolTip": "Shoeses.Services\\Users\\UserAppService.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAcwHsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T23:16:53.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserserviceUpdateTest.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.UnitTest\\Users\\UserserviceUpdateTest.cs",
+              "RelativeDocumentMoniker": "Shoeses.UnitTest\\Users\\UserserviceUpdateTest.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.UnitTest\\Users\\UserserviceUpdateTest.cs",
+              "RelativeToolTip": "Shoeses.UnitTest\\Users\\UserserviceUpdateTest.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAwFkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T23:16:34.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserBuilder.cs",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.TestTools\\Users\\UserBuilder.cs",
+              "RelativeDocumentMoniker": "Shoeses.TestTools\\Users\\UserBuilder.cs",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.TestTools\\Users\\UserBuilder.cs",
+              "RelativeToolTip": "Shoeses.TestTools\\Users\\UserBuilder.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T23:10:10.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shoeses.RestApi.csproj",
+              "DocumentMoniker": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Shoeses.RestApi.csproj",
+              "RelativeDocumentMoniker": "Shoeses.RestApi\\Shoeses.RestApi.csproj",
+              "ToolTip": "F:\\youTube_WebApi\\asli\\shoeses\\Shoeses.RestApi\\Shoeses.RestApi.csproj",
+              "RelativeToolTip": "Shoeses.RestApi\\Shoeses.RestApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-02T21:51:14.362Z"
             }
           ]
         }
