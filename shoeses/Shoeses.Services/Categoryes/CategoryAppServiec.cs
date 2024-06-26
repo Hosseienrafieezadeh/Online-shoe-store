@@ -14,79 +14,79 @@ using Shoeses.Services.Products.Contracts.Dtos;
 
 namespace Shoeses.Services.Categoryes
 {
-    public class CategoryAppServiec : CategoryService
-    {
-        private readonly CatecoryesRepository _repository;
-        private readonly UnitOfWork _unitOfWork;
-        private readonly ProductRepository _productRepository;
+        public class CategoryAppServiec : CategoryService
+        {
+            private readonly CatecoryesRepository _repository;
+            private readonly UnitOfWork _unitOfWork;
+            private readonly ProductRepository _productRepository;
 
-        public CategoryAppServiec(CatecoryesRepository repository, UnitOfWork unitOfWork, ProductRepository productRepository)
-        {
-            _repository = repository;
-            _unitOfWork = unitOfWork;
-            _productRepository = productRepository;
-        }
-        public async Task Add(AddCategoryDto dto)
-        {
-            if (await _repository.IsCategoryNameExist(dto.Name))
+            public CategoryAppServiec(CatecoryesRepository repository, UnitOfWork unitOfWork, ProductRepository productRepository)
             {
-                throw new CategoryNameAlreadyExistException(); // استثناء خاص برای نام تکراری
+                _repository = repository;
+                _unitOfWork = unitOfWork;
+                _productRepository = productRepository;
             }
-            var category = new Category
+            public async Task Add(AddCategoryDto dto)
             {
-                Name = dto.Name,
-            };
-            _repository.Add(category);
-            await _unitOfWork.Complete();
-            category.Products = dto.Products.Select(_ => new Product()
-            {
-                Name = _.Name,
-                Description = _.Description,
-                Price = _.Price,
-                Count = _.Count,
-                CategoryId = category.Id,
-                PromotionId = _.PromotionId,
-            }).ToList();
+                if (await _repository.IsCategoryNameExist(dto.Name))
+                {
+                    throw new CategoryNameAlreadyExistException(); // استثناء خاص برای نام تکراری
+                }
+                var category = new Category
+                {
+                    Name = dto.Name,
+                };
+                _repository.Add(category);
+                await _unitOfWork.Complete();
+                category.Products = dto.Products.Select(_ => new Product()
+                {
+                    Name = _.Name,
+                    Description = _.Description,
+                    Price = _.Price,
+                    Count = _.Count,
+                    CategoryId = category.Id,
+                    PromotionId = _.PromotionId,
+                }).ToList();
 
-            _repository.Update(category);
-            await _unitOfWork.Complete();
-        }
-
-        public async Task Update(int Id, UpdateCategoriesDto dto)
-        {
-            var category = _repository.Find(Id);
-            if (category == null)
-            {
-                throw new CategoryNotFoundExceptionToUpdate();
+                _repository.Update(category);
+                await _unitOfWork.Complete();
             }
 
-            category.Name = dto.Name;
-          
-
-            _repository.Update(category);
-            await _unitOfWork.Complete();
-        }
-
-        public async Task Delete(int id)
-        {
-            var category =  _repository.Find(id);
-            if (category == null)
+            public async Task Update(int Id, UpdateCategoriesDto dto)
             {
-                throw new CategoryNotFoundException();
+                var category = _repository.Find(Id);
+                if (category == null)
+                {
+                    throw new CategoryNotFoundExceptionToUpdate();
+                }
+
+                category.Name = dto.Name;
+
+
+                _repository.Update(category);
+                await _unitOfWork.Complete();
             }
 
-            foreach (var product in category.Products)
+            public async Task Delete(int id)
             {
-                _productRepository.Delete(product);
+                var category = _repository.Find(id);
+                if (category == null)
+                {
+                    throw new CategoryNotFoundException();
+                }
+
+                foreach (var product in category.Products)
+                {
+                    _productRepository.Delete(product);
+                }
+
+                _repository.Delete(category);
+                await _unitOfWork.Complete();
             }
 
-            _repository.Delete(category);
-            await _unitOfWork.Complete();
+            public async Task<List<GetCategoryDto>> GetAll()
+            {
+                return await _repository.GetAll();
+            }
         }
-
-        public async Task<List<GetCategoryDto>> GetAll()
-        {
-            return await _repository.GetAll();
-        }
-    }
 }
